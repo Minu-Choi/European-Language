@@ -1,0 +1,25 @@
+h1 {
+  text-align: center;
+  border-bottom: 4px solid black;
+  padding-bottom: 6px;
+}
+
+ul {
+  border-right: 4px solid black;
+  width: 100px;
+  margin: 0;
+  padding: 20px;
+}
+
+a {
+  color: black;
+}
+
+* {
+  text-decoration: none;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
